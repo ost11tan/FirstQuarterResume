@@ -68,10 +68,5 @@ string[] myArray = GetArray(size);
 PrintArray(myArray);
 
 Console.WriteLine();
-
-string[] temp = Sort(myArray);
-PrintArray(temp);
-
-Console.WriteLine();
 string[] myArrayNew = NewArray(myArray);
 PrintArray(myArrayNew);
