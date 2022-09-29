@@ -14,6 +14,7 @@
 5. Для корректной работы NewArray пишем еще две функции
 
 * Аналог сортировки "пузырек" Sort
+(функция переносит не подходящие нашему условию элменты в конец массива)
 ```
 string[] Sort(string[] arr)
 {
@@ -38,6 +39,7 @@ string[] Sort(string[] arr)
 
 
 * Функция, подсчитывающая количество элементов нового массива  CountElementsArray
+(Подчет количества элементов в новом массиве)
 ```
 int CountElementsArray(string[] array)
 {
@@ -50,4 +52,8 @@ int CountElementsArray(string[] array)
     return count;
 }
 ```
+![блок-схема CountElementsArray](CountElementsArray.png)
+
+*блок-схема функции CountElementsArray*
+
 6. //Место для блок-схемы 
