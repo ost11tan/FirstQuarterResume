@@ -56,4 +56,28 @@ int CountElementsArray(string[] array)
 
 *блок-схема функции CountElementsArray*
 
-6. //Место для блок-схемы 
+*была идея обьединить эти два метода,но не нашла,как сделать так,чтоб функция возвращала несколько значений*
+
+6. Основная функция NewArray
+
+```
+string[] NewArray(string[] array)
+{
+    int size = CountElementsArray(array);
+    Sort(array);
+    string[] result = new string[size];
+    for (int i = 0; i < size; i++)
+    {
+        result[i] = array[i];
+    }
+    return result;
+}
+
+```
+Функция создает новый массив строк с количеством элементов равным значению,которое вернулв CountElementsArray.
+Далее копируем поэлементно результат работы функции Sort в массив result
+
+
+![блок-схема NewArray](NewArray.png)
+
+*блок-схема функции NewArray*
