@@ -13,7 +13,7 @@
 
 5. Для корректной работы NewArray пишем еще две функции
 
-Аналог сортировки "пузырек" Sort
+* Аналог сортировки "пузырек" Sort
 ```
 string[] Sort(string[] arr)
 {
@@ -32,7 +32,12 @@ string[] Sort(string[] arr)
     return arr;
 }
 ```
-Функция, подсчитывающая количество элементов нового массива  CountElementsArray
+![блок-схема Sort](Sort.png)
+
+*блок-схема функции Sort*
+
+
+* Функция, подсчитывающая количество элементов нового массива  CountElementsArray
 ```
 int CountElementsArray(string[] array)
 {
